@@ -5,10 +5,10 @@
 <body>
 <p>
     <?php
-    echo "Hello World";
-    echo 5 * 7;
-    $myname = "Test name";
-    echo "The value of my variable is " . $myname;
+    $myArray = array ("do", "re", "mi"); // declares and instantiates our array
+    echo $myArray[0]; // outputs do
+    $myArray[1] = "la"; // modifies position 1
+    unset($myArray[2]); // removes the array in position 2
     ?>
 </p>
 </body>
